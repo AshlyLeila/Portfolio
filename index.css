@@ -6,7 +6,11 @@ body, html{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     height: 100%;
-    color: white;   
+    color: white;  
+}
+
+html{
+        scroll-behavior: smooth; 
 }
 
 .portfolio-title{
@@ -212,7 +216,7 @@ div.skills{
     margin: 50px;
 }
 
-div.projects{
+div.container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -226,7 +230,7 @@ div.card-item{
     align-items: center;
     justify-content: center;
     margin: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #0e3656;
     color: #fff;
     border-radius: 10px;
@@ -306,12 +310,4 @@ div.text{
     padding: 8px 10px;
     cursor: pointer;
     background-color: #8b5cf6;
-}
-
-button.btn{
-    box-shadow: 0 8px 0 rgb(73, 45, 101);
-}
-
-button.btn:hover{
-    transform: translateY(4px);
 }
