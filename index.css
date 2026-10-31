@@ -8,6 +8,8 @@
     --title: #CAE9FF;
     --projet: #A9D6E5;
     --cv: #1d4ed8;
+    --light: #FAFAFA;
+    --title-light: #012A4A;
 }
 
 *{
@@ -92,7 +94,27 @@ body{
 }
 
 body.light-mode{
-    background-color: var(--text); color: var(--primary_color);
+    background-color: var(--light); 
+    color: var(--primary_color);
+
+}
+
+body.light-mode .portfolio-title,
+body.light-mode .nav-links li a{
+    color: #000;
+}
+
+body.light-mode .title{
+    color: var(--title-light);
+}
+
+body.light-mode p.nom{
+    color: #0D3A5C;
+}
+
+body.light-mode div.bord:hover{
+    border-color: #0D3A5C;
+    background: #aee2ff;
 }
 
 .portfolio-title{
@@ -192,7 +214,7 @@ div.right{
 }
 
 p.nom{
-    color: #AEE2FF;
+    color: #A9D6E5;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -206,7 +228,7 @@ div.bord{
 
 div.bord:hover{
     border-color: #AEE2FF;
-    background: rgba(174, 226, 255, 0.1);
+    background: #0D3A5C; ;
 }
 
 div.bord p{
