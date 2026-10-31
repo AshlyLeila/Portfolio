@@ -68,3 +68,10 @@ document.addEventListener('keydown', e => {
     if (e.key === 'ArrowRight') goTo(index + 1);
     if (e.key === 'ArrowLeft') goTo(index - 1);
 });
+
+// icon sun-moon mode
+
+const bouton = document.querySelector(".light");
+bouton.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+})
