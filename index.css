@@ -133,6 +133,7 @@ body.light-mode div.bord:hover{
     color: var(--title);
     font-family: "Berkshire Swash", cursive;
     font-size: 2.5rem;
+    margin-bottom: 35px;
 }
 
 main{
@@ -165,6 +166,7 @@ button.btn{
 
 p.home{
     font-size: 1.25rem;
+    margin-bottom: 15px;
 }
 
 #project-button{
