@@ -575,6 +575,11 @@ input, textarea{
     text-align: center;
 }
 
+/*footer*/
+button#send{
+    color: var(--text);
+}
+
 /*media query*/
 @media (max-width: 900px){
     section.certificat .swiper-slide {
