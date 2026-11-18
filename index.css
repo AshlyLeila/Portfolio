@@ -53,7 +53,7 @@ ul.nav-links{
    align-items: center;
 }
 
-li a{
+a{
     text-decoration: none;
     color: var(--text);
 }
@@ -171,6 +171,10 @@ p.home{
 
 #project-button{
     background-color: var(--projet);
+}
+
+#project-button a{
+    color: var(--surface);
 }
 
 #cv-button{
